@@ -1,9 +1,31 @@
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
-    justify-content: flex-end;
 }
-
+/* 
 .home {
     margin-right: auto;
-}
+} */
+
+ /* .container > div {
+    flex: 1;
+ } */
+
+ /* .container > div {
+    flex: 1;
+ }
+ .container > .search {
+    flex: 2;
+ } */
+
+ /* .search {
+    flex: 1;
+ } */
+
+ .home {
+    flex: 1;
+ }
+.logout {
+    flex: 1;
+ }
+
