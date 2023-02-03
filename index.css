@@ -1,16 +1,19 @@
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     height: 100%;
-    align-items: center;      /* flex-end flex-start */
+    align-items: flex-end;      /* flex-end flex-start */
+
 }
 
-.logout {
+/* .logout {
     align-self: flex-start;
 }
 .home {
     align-self: flex-end;
-}
+} */
 
  /* .home {
     flex: 1;
