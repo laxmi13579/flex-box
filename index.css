@@ -1,12 +1,20 @@
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
-    flex-wrap: wrap;
 }
 
-.container > div {
-    width: 300px;
+.home {
+    flex: 1 1 200px; 
+    /* flex: grow shrink basis */
 }
+
+.logout {
+    flex: 1 1 200px;
+}
+
+/* .container > div {
+    width: 300px;
+} */
 
 /* .logout {
     align-self: flex-start;
